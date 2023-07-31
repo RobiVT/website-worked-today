@@ -8,7 +8,7 @@
     <title>Document</title>
   </head>
   <body>
-    <header class="text-white bg-black sticky">
+    <header class="text-white bg-black sticky z-10">
       <div
         class="container mx-auto flex flex-wrap flex-col md:flex-row justify-between items-center"
       >
@@ -20,10 +20,10 @@
           />
         </a>
         <nav
-          class="flex flex-wrap items-center justify-between font-bold mr-44 text-xl pb-3 hover:border-b-2 border-b-indigo-600 border-x-0 border-x-gray-400"
+          class="flex flex-wrap items-center justify-between font-bold mr-44 text-xl pb-3"
         >
           <a
-            class="hover:border-b-2 border-b-indigo-600 border-x-2 border-x-gray-400 p-5 hover:text-indigo-900"
+            class="border-b-2 border-b-indigo-600 border-x-2 border-x-gray-400 p-5 hover:text-indigo-900"
             >Home</a
           >
           <a
@@ -41,6 +41,38 @@
         </nav>
       </div>
     </header>
-    <section class="bg-slate-200"></section>
+    <section>
+      <div
+        class="h-screen w-screen bg-cover bg-center"
+        style="
+          background-image: url('https://readyclips.com/wp-content/uploads/2018/08/ReadyClips_Header_Van.jpg');
+        "
+      ></div>
+      <div class="bg-sky-800">
+        <div
+          class="flex flex-col items-center space-y-1 pb-16 pt-12 text-center"
+        >
+          <div class="text-4xl font-bold text-white">We are Ready Clips.</div>
+          <div class="text-4xl font-bold text-white">
+            We are always at the ready!
+          </div>
+          <div class="pt-3 font-bold text-xl text-white">
+            Tired of waiting on shipping for your products? Let us help!
+          </div>
+          <div class="w-2/3 font-bold text-xl text-white">
+            READY CLIPS is auto parts warehouse on wheels, where we bring the
+            supplies you need,
+          </div>
+          <div class="font-bold text-xl text-white">when you need it.</div>
+          <div class="pt-4">
+            <button
+              class="mx-auto flex rounded border-2 bg-transparent border-black px-8 py-2 text-xl font-bold text-white hover:bg-red-600 focus:outline-none"
+            >
+              More about us
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
